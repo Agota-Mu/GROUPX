@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css"  href="Agota1.css">
+<title>Vestuvės</title>
+
+<h1 style=''><em> Kviečiu į vestuves </em></h1>
+
+
+<!-- <style>
+body {
+background-color: #FA58D0;
+}
+h1 {
+  text-align: center;
+  font-style: oblique;
+  background-color: #2E2EFE;
+  color: #FE9A2E;
+}
+</style> -->
+
+</head>
+<body>
+  
+  <div class="konteineris">
+      <p class="tekstas">Svečio informacija:</p>
+      <input type="text" required placeholder="Vardas" id="vardas" class="laukas"/> 
+      <input type="text" required placeholder="Pavardė" id="pavarde" class="laukas"/>
+      <input type="tel"required placeholder="Telefono numeris" id="numeris" class="laukas"/>
+     <p class="tekstas">Tinkamiausia data?</p> <input type="date"required placeholder="Tinkamiausia data" id="data"/>
+      <p class="tekstas">Ar su +1?</p>
+      <form action="#">
+      <label id="checkbox1Label" for="checkbox1"><input id="checkbox1" type="radio" name="yes">Taip</label>
+      <label id="checkbox2Label" for="checkbox2"><input id="checkbox2" type="radio" name="no">Ne</label>
+      </form>
+    
+      <input type="email" pattern=".+@gmail.com" size="30" required placeholder="El. Paštas" id="el" class="laukas"/><br>
+      <button id="mygtukas" type="submit">Dalyvausiu!</button>
+    <br>
+  </div>
+    
+<center><img src="pics1/n1.jpg" class="image"> <img src="pics1/n3.jpg" class="image">
+  <div class="wed" id="box">
+<!--<p class="wed" id="box">--><p><b> Planning a wedding is hard</b>.<br>
+From the dates, all the way to the send off (wedding sparklers we hope!) and honeymoon, there are a ton of things to think about.<br>
+And there are so many questions to ask yourself that it seems extremely overwhelming.</p></div>
+<a href= "https://n.nordstrommedia.com/id/sr3/992a466a-e0c1-41f7-87f2-3441fc70e6a3.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196" target="_blank"> My dream wedding dress </a>
+
+<p id="demo">Do you want to marry me?</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "YES!"'>Find out</button></center>
+
+<script src="agota1.js"></script>
+</body>
+</html>
